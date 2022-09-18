@@ -6,10 +6,9 @@ CNN Cancer Detection Kaggle Mini-Project for course DTSA-5511 Week 3
 
 A Jupyter notebook with a description of the problem/data, exploratory data analysis (EDA) procedure, analysis (model building and training), result, and discussion/conclusion. 
 
-## Problem
-With the help of Machine Learning, use the Convolution Neural Network (CNN) algorithm to identify metastatic cancer in small image patches taken from larger digital pathology scans.
-
 ## Data
 
-The train_labels.csv file provides the ground truth for the images in the train folder. This file is located in this repository at "./data/histopathologic-cancer-detection/"
-Test and train images at [Histopathologic Cancer Detection](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data)
+The data comes from [Kaggle](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data)
+
+There are three files provided. The first one is train_labels.csv which provides the ground truth for the images in the train folder. The second and third ones are zip file which contains images of 96x96 pixels in Tagged Image File Format (TIFF). 
+The test folder contains 57,458 imags and the train folder contains 220,025 images.
