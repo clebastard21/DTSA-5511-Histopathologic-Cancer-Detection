@@ -8,7 +8,7 @@ A Jupyter notebook with a description of the problem/data, exploratory data anal
 
 ## Data
 
-The data comes from [Kaggle](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data)
+The data comes from Kaggle (https://www.kaggle.com/competitions/histopathologic-cancer-detection/data)
 
 There are three files provided. The first one is train_labels.csv which provides the ground truth for the images in the train folder. The second and third ones are zip file which contains images of 96x96 pixels in Tagged Image File Format (TIFF). 
-The test folder contains 57,458 imags and the train folder contains 220,025 images.
+The test folder contains 57,458 imags and the train folder contains 220,025 images. The labels contains binary values where 0 is non-cancerous and 1 is cancerous.
